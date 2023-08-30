@@ -1,0 +1,27 @@
+{
+  "name": "nextui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@nextui-org/react": "2.1.7",
+    "jest-worker": "27.4.6",
+    "next": "13.4.19",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "overrides": {
+    "@react-aria/interactions": "3.0.0-nightly.2390"
+  },
+  "devDependencies": {
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0"
+  },
+  "keywords": ["nextui", "node.js", "vercel", "nodejs", "nextjs"],
+  "description": "Beautiful, fast and modern React UI library."
+}
